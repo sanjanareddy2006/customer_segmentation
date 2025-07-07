@@ -55,7 +55,7 @@ This project applies unsupervised machine learning (K-Means Clustering) to segme
   - `pandas`
   - `matplotlib`
   - `scikit-learn`
-  - `seaborn` *(optional)*
+  - `seaborn` 
 
 ---
 
