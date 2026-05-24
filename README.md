@@ -1,10 +1,8 @@
-# 🛍️ Customer Segmentation using K-Means Clustering
+# Customer Segmentation using K-Means Clustering
 
 This project applies unsupervised machine learning (K-Means Clustering) to segment retail store customers based on their annual income and spending behavior. These insights can help businesses tailor marketing strategies and personalize customer experiences.
 
-
-
-## 📌 Project Overview
+## Project Overview
 
 - **Algorithm Used**: K-Means Clustering
 - **Goal**: Group customers into distinct clusters for targeted marketing
@@ -13,9 +11,7 @@ This project applies unsupervised machine learning (K-Means Clustering) to segme
   - `Annual Income (k$)`
   - `Spending Score (1-100)`
 
-
-
-# 🧠 Project Workflow
+# Project Workflow
 
 1. **Data Preprocessing**
    - Load and clean dataset
@@ -36,9 +32,7 @@ This project applies unsupervised machine learning (K-Means Clustering) to segme
 5. **Export Results**
    - Save `clustered_customers.csv` with cluster labels
 
-
-
-## 📊 Clustering Output Sample
+##  Clustering Output Sample
 
 | CustomerID | Income (k$) | Spending Score | Cluster |
 |------------|-------------|----------------|---------|
@@ -46,9 +40,7 @@ This project applies unsupervised machine learning (K-Means Clustering) to segme
 | 2          | 15          | 81             | 0       |
 | ...        | ...         | ...            | ...     |
 
-
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python
 - **Libraries**: 
@@ -57,48 +49,37 @@ This project applies unsupervised machine learning (K-Means Clustering) to segme
   - `scikit-learn`
   - `seaborn` 
 
-
-
-## 📁 Folder Structure
+## Folder Structure
 .
 ├── customer_segmentation.py # Main script
 ├── Mall_Customers.csv # Dataset
 ├── README.md # Project documentation
 
-
-
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/customer-segmentation-kmeans.git
    cd customer-segmentation-kmeans
 
-
-#📈 How It Works
+# How It Works
 Load and clean data
 Visualize distributions (age, income, spending)           
 Use the Elbow Method to determine optimal number of clusters
 Apply K-Means clustering on selected features (e.g., Annual Income & Spending Score)
 Visualize clusters using scatter plots
 
-
-#📊 Sample Output
-📌 Elbow Method Plot
+# Sample Output
+ Elbow Method Plot
 Helps identify the optimal number of clusters (k) using Within-Cluster-Sum-of-Squares (WCSS).
-🎯 Cluster Visualization (2D)
+ Cluster Visualization (2D)
 Each color represents a customer segment (e.g., High income / High spenders, etc.)
 
-
-#💡 Future Improvements
+# Future Improvements
 Use 3D plots for richer cluster insights
 Try other clustering methods (DBSCAN, Hierarchical)
 Build a web dashboard using Streamlit
 Integrate customer labels into business intelligence tools
 
-#👨‍💻 Author
-Sanju Reddy
-Machine Learning Intern
-This project is part of my Prodigy InfoTech Internship
-
-
+# Author
+Sanjana 
